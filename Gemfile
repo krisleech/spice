@@ -10,6 +10,7 @@ gem 'lotusrb',      '0.2.1'
 gem 'haml'
 
 # domain
+gem 'virtus'
 gem 'lotus-model', '~> 0.2'
 
 group :test do
