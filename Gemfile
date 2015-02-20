@@ -13,6 +13,10 @@ gem 'haml'
 gem 'virtus'
 gem 'lotus-model', '~> 0.2'
 
+group :test, :development do
+  gem 'pry-byebug', require: false
+end
+
 group :test do
   gem 'rspec'
   gem 'capybara'
